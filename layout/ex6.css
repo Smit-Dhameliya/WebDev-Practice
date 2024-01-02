@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav ul {
+    margin: 10px;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 24px;
+    padding: 3px 22px;
+
+}
+
+.line {
+    height: 2px;
+    width: 100vw;
+    background-color: rgb(174, 174, 174);
+}
+
+.logo img {
+    height: 6vh;
+    padding: 5px 50px;
+}
+
+.content {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content span {
+    font-size: 48px;
+}
+
+.content p {
+    padding-top: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.content div {
+    margin-top: 30px;
+    padding: 10px 25px;
+    color: white;
+    background-color: steelblue;
+    border-radius: 5px;
+}
+
+.download {
+    display: grid;
+    grid-template-columns: 22vw 22vw 22vw;
+    grid-template-rows: 150px 250px 250px 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top div {
+    font-size: 24px;
+    margin: 20px 35px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    width: 20vw;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.box h1 {
+    margin-top: 25px;
+}
+
+.box ul {
+    display: flex;
+    list-style: none;
+}
+
+.box ul li:first-child {
+    color: white;
+    font-size: 12px;
+    font-weight: 650;
+    padding: 6px 10px;
+    margin: 5vh 10px 0vh 10px;
+    background-color: rgb(75, 189, 100);
+    border-radius: 3px;
+}
+
+.box ul li:nth-child(2) {
+    color: white;
+    font-size: 12px;
+    font-weight: 650;
+    padding: 6px 10px;
+    margin: 5vh 10px 0vh 10px;
+    background-color: rgb(66, 147, 202);
+    border-radius: 3px;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    margin-top: 180px;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    background-color: rgb(236, 213, 0);
+}
